@@ -1,0 +1,54 @@
+body {
+  margin: 144px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+#searchBar{
+  background-color: #eee;
+}
+
+#searchBar p {
+  margin: 0;
+}
+
+#searchBar input {
+  width: 300px;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#links > article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+}
+
+#searchLinks {
+  background-color: aquamarine;
+}
+
+#companyLinks {
+  background-color: turquoise;
+}
+
+#subscribtionLinks {
+  background-color: teal;
+}
+
+footer {
+  padding: 16px;
+}
